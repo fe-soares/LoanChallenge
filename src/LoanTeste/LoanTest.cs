@@ -6,10 +6,10 @@ using Loan.Business.Services;
 
 namespace TestProject
 {
-    public class UnitTest1
+    public class LoanTest
     {
         private readonly ILoanService _loanService;
-        public UnitTest1()
+        public LoanTest()
         {
             _loanService = new LoanService();
         }
